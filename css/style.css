@@ -1,0 +1,648 @@
+/* font-family: 'Source Sans Pro', sans-serif; */
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header section start here  */
+header{
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    
+}
+.navbar-light .navbar-nav .nav-link::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color:#008ed6;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 44%;
+}
+.navbar-light .navbar-nav .nav-link::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 44%;
+}
+.nav-item{
+    padding: 5px 10px;
+
+}
+.header-content h5{
+    color: #037ebd;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+.header-content h1{
+    color: #fff;
+    font-size: 43px;
+    padding-top: 15px;
+}
+
+.header-content p{
+    color: #999999;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+.header-content{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.hg{
+    height: 80vh;
+    position: relative;
+}
+.phone-part{
+    position: absolute;
+    right: 0;
+    transform: translateY(0px);
+    bottom: -69px;
+}
+.btn-download{
+    background-color: #008ed6;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+
+}
+.btn-download:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #008ed6 ;
+}
+.btn-view{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #008ed6 ;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+
+
+}
+.btn-view:hover{
+    background-color: #008ed6;
+    color: #fff;
+
+}
+/* header section end here */
+
+/* feature section start here */
+.heading{
+    position: relative;
+
+}
+.heading::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0px;
+    bottom: 0;
+    left: 44%;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+
+}
+.heading::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0px;
+    bottom: 0;
+    right: 44%;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.feature:hover .heading::before{
+    width: 30px;
+
+}
+.feature:hover .heading::after{
+    width: 30px;
+
+}
+.heading h5{
+    text-transform: uppercase;
+    color: #008ed6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.heading h1{
+    
+font-size: 32px;
+    
+text-transform: capitalize;
+}
+.feature{
+
+}
+.feature h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.feature p{
+    
+color: #a7a7a7;
+    
+padding-top: 10px;
+}
+.icon{
+    
+width: 100px;
+    
+height: 100px;
+
+    
+text-align: center;
+    
+line-height: 100px;
+    
+border-radius: 50px;
+    
+font-size: 30px;
+    
+color: #008ed6;
+    
+border: 1px solid #e4e4e4;
+    
+margin: auto;
+}
+.heading-two{
+    position: relative;
+
+}
+.heading-two::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width:0px;
+    bottom: 0;
+    left: 0;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.device:hover .heading-two::before{
+    width: 30px;
+
+}
+
+.heading-two::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width:0px;
+    bottom: 0;
+    right: 88%;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+    
+}
+.device:hover .heading-two::after{
+    width: 30px;
+
+}
+.device{
+
+}
+.device h5{
+
+text-transform: uppercase;
+
+font-size: 18px;
+
+font-weight: bold;
+
+color: #008ed6;
+
+font-family: 'Source Sans Pro', sans-serif;
+}
+.device h1{
+
+text-transform: capitalize;
+
+font-size: 35px;
+}
+.device p{
+
+padding: 10px 0;
+}
+.device ul{
+    
+list-style: none;
+    
+margin: 0;
+}
+
+.device ul li{
+    
+margin: 5px 0;
+    
+font-size: 16px;
+    
+font-family: 'Source Sans Pro', sans-serif;
+    
+font-weight: 400;
+}
+
+.device ul li i{
+    
+margin-right: 10px;
+    
+font-size: 14px;
+    
+color: #008ed6;
+}
+
+/* feature section end here */
+
+
+/* customize section start here  */
+.customize{
+    background-color: #f2f2f2;
+}
+.customize h5{
+    
+text-transform: uppercase;
+    
+font-size: 18px;
+    
+font-weight: bold;
+    
+color: #008ed6;
+    
+font-family: 'Source Sans Pro', sans-serif;
+}
+.customize h1{
+    text-transform: capitalize;
+    font-size: 35px;
+    padding-bottom: 6px;
+}
+
+.customize p{
+    padding: 10px 0;
+    color: #a7a7a7;
+}
+.customize:hover .heading-two::before{
+    width: 30px;
+
+}
+.customize:hover .heading-two::after{
+    width: 30px;
+
+}
+/* customize section end here  */
+
+/* testimonial section start here */
+.testimonial{
+background-image: url(../images/test-bg.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.testimonial h5{
+    
+font-size: 14px;
+    
+font-weight: bold;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.testimonial h1{
+    
+color: #fff;
+}
+.client{
+
+display: flex;
+
+align-items: center;
+color: #fff;
+}
+.testimonial p{
+    color: #fff;
+    padding-top: 25px;
+    padding-right: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.testimonial:hover .heading::before{
+    width: 30px;
+
+}
+.testimonial:hover .heading::after{
+    width: 30px;
+
+}
+.des{
+
+margin-left: 15px;
+}
+.des h6{
+    
+font-size: 14px;
+    
+font-weight: 600;
+    
+text-transform: capitalize;
+    
+margin: 0;
+}
+.des h5{
+    
+margin: 0;
+    
+font-size: 15px;
+    
+text-transform: uppercase;
+    
+font-weight: 700;
+}
+/* testimonial section end here */
+
+/* notification section start here  */
+.notification{
+    background-color: black;
+
+}
+.notification h1{
+    
+color: #fff;
+    
+font-size: 25px;
+    
+font-weight: 300;
+}
+
+.notification h1 span{
+    
+font-weight: 600;
+}
+.btn-grp{
+    
+}
+/* notification section end here  */
+
+/* pricing section start here  */
+.pricing{
+    
+}
+.pricing:hover .heading::before{
+    width: 30px;
+
+}
+.pricing:hover .heading::after{
+    width: 30px;
+
+}
+.price{
+
+border: 1px solid #ccc;
+
+text-align: center;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.price h4{
+    
+text-transform: uppercase;
+    
+font-size: 20px;
+    
+font-weight: 800;
+    
+padding: 15px 0;
+    
+border-bottom: 1px solid #ccc;
+    
+transition: .4s all ease-in-out;
+    
+margin: 0;
+}
+.price_value h1{
+    
+font-size: 50px;
+    
+margin: 0;
+transition: .4s all ease-in-out;
+}
+.price_value h1 sup{
+    font-size: 30px;
+}
+.price h6{
+    
+margin: 0;
+color: #999999;
+font-weight: 400;
+border-bottom: 1px solid #ccc;
+padding-bottom: 20px;
+transition: .4s all ease-in-out;
+}
+.price p{
+    color: #999999;
+    padding: 30px 15px;
+    
+}
+.btn-order{
+    border: none;
+    border: 1px solid #ccc;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #008ed6;
+    transition: .4s all ease-in-out;
+    margin-bottom: 30px;
+}
+.price:hover .btn-order{
+    background-color: #008ed6;
+    color: #fff;
+}
+.price:hover h4{
+   color: #008ed6;
+
+}
+.price_value{
+    transition: .4s all ease-in-out;
+}
+.price:hover .price_value{
+    background-color: #008ed6;
+
+}
+.price:hover .price_value h1{
+color: #fff;
+
+}
+.price:hover .price_value h6{
+    color: #fff;
+
+}
+/* pricing section end here  */
+
+/* contact section start here  */
+.contact{
+    background-color: #ededed;
+    position: relative;
+    padding-bottom: 198px;
+}
+.contact p{
+    color: #999999;
+    margin: 0;
+
+}
+.contact:hover .heading::before{
+    width: 30px;
+
+}
+.contact:hover .heading::after{
+    width: 30px;
+
+}
+.icon-contact{
+    width: 100px;
+    
+height: 70px;
+
+    
+text-align: center;
+font-size: 30px;
+    
+color: #008ed6;
+margin: auto;
+
+}
+.form-bg{
+    background-color: black;
+    padding: 30px;
+    
+}
+.form-group{
+
+}
+input[type="name"]{
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 700;
+padding: 18px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+input[type="email"]{
+    text-transform: uppercase;
+font-size: 14px;
+font-weight: 700;
+padding: 18px;
+font-family: 'Source Sans Pro', sans-serif;
+    
+}
+input[type="text"]{
+    text-transform: uppercase;
+font-size: 14px;
+font-weight: 700;
+padding: 18px;
+font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.form-group textarea{
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 700;
+padding: 18px;
+font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.btn-submit{
+    background: none;
+    border: none;
+    color: #fff;
+    background-color: #008ed6;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    float: right;
+}
+.form-control {
+    color: #9c9c9c !important;
+    background-color: transparent !important;
+    border: 1px solid #9c9c9c !important;
+    
+}
+.absulate{
+    position: absolute;
+    left: 50%;
+    bottom: -15%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+/* contact section end here  */
+
+/* footer section start here  */
+footer{
+    background-color: black;
+    
+
+}
+footer p{  
+text-transform: uppercase;   
+font-size: 15px;   
+font-weight: 700;  
+color: #444348;   
+padding-top: -47px;   
+margin-top: -20px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+footer ul li{
+    list-style: none;
+    color: #444348;
+    font-size: 20px;
+    transition: .4s all ease-in-out;
+}
+footer ul li:hover{
+    color: #008ed6;
+}
+
+
+
+
+
+/* footer section end here  */
+
+
+
